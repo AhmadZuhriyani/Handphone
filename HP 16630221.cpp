@@ -1,11 +1,14 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
 class Handphone{
-		public:
+	public:
 		void harga(string price);
-		string kualitas, ram, procesor;  };
+		string kualitas, ram, procesor;
 		
+};
+
 int main (){
 	Handphone samsung, iphone, xiaomi;
 	
@@ -18,3 +21,8 @@ int main (){
 	
 	iphone.harga(" Menengah Keatas ");
 }
+
+void Handphone::harga(string price){
+	cout<<" Harganya "<<price<<" Sesuai Keuangan Anda \n";
+}
+
