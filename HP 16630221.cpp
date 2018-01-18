@@ -1,5 +1,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Handphone{}
-int main (){
+class Handphone{
+		public:
+		void harga(string price);
+		string kualitas, ram, procesor;  };
+		
+int main (){}
