@@ -12,5 +12,9 @@ int main (){
 	samsung.kualitas = "Fitur terbaru ";
 	iphone.kualitas = " Sangat Mewah ";
 	xiaomi.kualitas   = " Murah dan Higt Performa ";
-
+	
+	cout << (samsung.kualitas);
+	samsung.harga(" Standar ");
+	
+	iphone.harga(" Menengah Keatas ");
 }
