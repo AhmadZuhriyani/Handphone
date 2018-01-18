@@ -6,4 +6,11 @@ class Handphone{
 		void harga(string price);
 		string kualitas, ram, procesor;  };
 		
-int main (){}
+int main (){
+	Handphone samsung, iphone, xiaomi;
+	
+	samsung.kualitas = "Fitur terbaru ";
+	iphone.kualitas = " Sangat Mewah ";
+	xiaomi.kualitas   = " Murah dan Higt Performa ";
+
+}
